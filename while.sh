@@ -1,9 +1,8 @@
 #!/bin/bash
 
-i=100;
+i=10;
 while [ $i -ge 0 ] ;
 do
-echo Counting down, from 100 to 0, now at $i;
+echo Counting down, from 10 to 0, now at $i  "*"
 let i--;
 done
-En

@@ -25,7 +25,7 @@ check_bin(){
 	fi
 	}
 table_print(){
-	format=" %-16s %-10s %10s \n"
+	format=" %-16s %-15s %10s \n"
 	printf "%s\n" "$line"
 		printf "$format"  "INET" "IP" "MAC"
 	printf "%s\n" "$line"
